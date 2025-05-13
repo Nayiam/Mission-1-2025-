@@ -202,3 +202,12 @@ footer {
     font-size: 1.2rem; /* Adjusts marquee content font size for mobiles */
   }
 }
+
+/* Glowing effect and background color change on hover for input and textarea fields */
+input:hover,
+textarea:hover {
+  background-color: #e0ffff; /* Light cyan background to complement the glow */
+  box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff; /* Neon-like glow */
+  border-color: #00ffff; /* Optional: change border color on hover */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for effects */
+}
