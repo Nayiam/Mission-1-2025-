@@ -1,0 +1,204 @@
+header {
+  text-align: center; /* Centers content within the header */
+}
+
+header h1 {
+  font-size: 6rem; /* Sets large font size for the main header text */
+  color: #ff69b4; /* Applies neon pink color, enhancing the Vice City vibe */
+  text-shadow: 3px 3px 0 #00f0ff, 5px 5px 0 #ff69b4; /* Adds layered text shadow for depth */
+  margin: 0; /* Removes default margin for precise centering */
+  line-height: 1.2; /* Sets line height for better visual spacing */
+}
+
+body {
+  background-color: #ffd1dc; /* Light pink background for a bright and inviting feel */
+  color: #1a1a2e; /* Dark text for contrast and readability */
+  font-family: "Bebas Neue", sans-serif; /* Applies Bebas Neue font for consistent styling */
+  margin: 0; /* Removes default body margin for better layout control */
+  padding: 0; /* Removes default padding for a tight fit */
+  font-size: 20px; /* Base font size for overall readability */
+  line-height: 1.6; /* Sets line height for comfortable text flow */
+}
+
+.container {
+  max-width: 900px; /* Limits container width to 900px for centered content */
+  margin: auto; /* Centers the container horizontally */
+  padding: 20px; /* Adds padding for spacing within the container */
+}
+
+header h1 {
+  font-size: 6rem; /* Consistent header font size */
+  color: #ff69b4; /* Reiterates neon pink color scheme */
+  text-shadow: 3px 3px 0 #00f0ff, 5px 5px 0 #ff69b4; /* Maintains layered text shadow for visual depth */
+}
+
+h1 {
+  font-size: 6rem; /* Large font size for headings */
+}
+
+h2 {
+  font-size: 3rem; /* Sets font size for secondary headings */
+  margin-top: 40px; /* Adds margin above h2 elements for spacing */
+  color: #00ffff; /* Applies cyan color for contrast */
+  text-shadow: 2px 2px 3px #000; /* Adds shadow for text depth */
+}
+
+.tagline {
+  font-family: "Pacifico", cursive; /* Applies Pacifico font to standout tagline */
+  font-size: 2.5rem; /* Sizing tagline prominently */
+  color: #00f0ff; /* Applies consistent color theme */
+  margin-top: -10px; /* Pulls tagline slightly upwards */
+  margin-bottom: 30px; /* Adds margin below for spacing */
+  text-shadow: 1px 1px 2px #000; /* Shadow enhances text visibility */
+}
+
+.hero-img {
+  width: 100%; /* Image takes full width */
+  max-width: 600px; /* Sets maximum width for responsiveness */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Block display to center image */
+  margin: 0 auto 20px auto; /* Centers image with margin */
+  border-radius: 15px; /* Rounded corners for a sleek look */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Adds shadow for depth */
+}
+
+.intro,
+.skills,
+.favorites,
+.form-section {
+  margin-top: 40px; /* Adds top margin to separate sections */
+}
+
+.skills ul {
+  list-style: none; /* Removes default list styling */
+  padding-left: 0; /* Resets padding for list elements */
+}
+
+.skills li {
+  margin: 8px 0; /* Adds vertical margin between list items */
+  font-size: 1.4rem; /* Sets font size for skill items */
+}
+
+.wanted-stars {
+  font-size: 2.5rem; /* Large font size for star rating */
+  color: gold; /* Gold color for iconic star appearance */
+  background-color: transparent; /* Transparent background to blend with page */
+  text-shadow: 1px 1px 2px #1a1a2e; /* Shadow adds depth to stars */
+  text-align: center; /* Centers stars in their container */
+  display: inline-block; /* Inline-block for containing stars closely */
+}
+
+.favorites p {
+  font-size: 1.4rem; /* Sets font size for favorites details */
+}
+
+.links {
+  text-align: center; /* Centers the links section */
+  margin: 30px 0; /* Adds vertical margin to space link section */
+}
+
+.links a {
+  color: #00ffff; /* Sets hyperlink color to cyan */
+  text-decoration: none; /* Removes default underline from links */
+  padding: 12px 24px; /* Adds padding for clickable area */
+  border: 2px solid #00ffff; /* Cyan border for link button appearance */
+  border-radius: 10px; /* Rounds borders for modern styling */
+  font-size: 1.4rem; /* Sets font size for links */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.links a:hover {
+  background: #00ffff; /* Brightens background on hover */
+  color: #000; /* Changes text color to black on hover for contrast */
+}
+
+form {
+  display: flex; /* Flexbox layout for form fields */
+  flex-direction: column; /* Vertical alignment of form fields */
+  gap: 10px; /* Space between form elements for clarity */
+}
+
+label {
+  font-size: 1.4rem; /* Sets font size for labels */
+}
+
+input,
+textarea {
+  padding: 12px; /* Padding for user comfort and interaction */
+  font-size: 1.3rem; /* Sets font size for input and textarea */
+  border: none; /* Removes border for clean appearance */
+  border-radius: 5px; /* Rounded edges for input fields */
+}
+
+button {
+  background-color: #ff69b4; /* Bright pink button background */
+  color: white; /* White text for contrast on buttons */
+  padding: 12px; /* Padding for button comfort */
+  border: none; /* Removes button borders for clean style */
+  border-radius: 10px; /* Rounded corners for modern buttons */
+  font-weight: bold; /* Bold text for button emphasis */
+  cursor: pointer; /* Pointer cursor for interactive elements */
+  font-size: 1.4rem; /* Sets font size for button text */
+  transition: background-color 0.3s ease; /* Smooth background transition on interaction */
+}
+
+button:hover {
+  background-color: #ff1493; /* Darkens button background on hover */
+}
+
+footer {
+  margin-top: 50px; /* Adds top margin for footer separation */
+  text-align: center; /* Centers the footer content */
+  font-size: 1.2rem; /* Sets font size for footer text */
+  color: #333; /* Dark color for footer readability */
+}
+
+/* Marquee */
+.marquee {
+  overflow: hidden; /* Prevents content overflow in marquee */
+  background-color: #ff69b4; /* Bright pink background for marquee effect */
+  height: 50px; /* Sets marquee height for concise layout */
+  display: flex; /* Flexbox layout for marquee content */
+  align-items: center; /* Centers content vertically */
+}
+
+.marquee-content {
+  white-space: nowrap; /* Prevents text wrapping within marquee */
+  display: inline-block; /* Inline block for contained styling */
+  animation: slideLeft 20s linear infinite; /* Animation for continuous scrolling effect */
+  font-size: 1.6rem; /* Sets font size for marquee text */
+  color: #fff; /* White text for visibility */
+}
+
+/* Animations */
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100%); /* Starts from the right */
+  }
+  100% {
+    transform: translateX(-100%); /* Moves to the left continuously */
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 4rem; /* Reduces h1 font size for small screens */
+  }
+
+  .tagline {
+    font-size: 2rem; /* Reduces tagline font size for mobile devices */
+  }
+
+  h2 {
+    font-size: 2.5rem; /* Adjusts h2 size for mobile readability */
+  }
+
+  body {
+    font-size: 18px; /* Reduces base font size for smaller screens */
+  }
+
+  .marquee-content {
+    font-size: 1.2rem; /* Adjusts marquee content font size for mobiles */
+  }
+}
